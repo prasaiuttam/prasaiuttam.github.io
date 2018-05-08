@@ -5,3 +5,20 @@
 .image1{
 	background-image: url("../img/cover1.png");
 }
+
+typewriter .typing-text {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    -webkit-animation: typing 2.5s steps(40),blink-caret .75s step-end infinite;
+    animation: typing 2.5s steps(40),blink-caret .75s step-end infinite;
+}
+.hero-text {
+    font-family: Anton,sans-serif;
+    width: 100%;
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+}
